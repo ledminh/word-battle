@@ -11,7 +11,7 @@ module.exports = (express, app, passport, data, io) => {
       method: "get",
       url: "https://wordsapiv1.p.mashape.com/words/" + req.query.word + "/definitions",
       headers: {
-        "X-Mashape-Key" : "6U4iE6ooIomshWAkZDWknoqfNApsp1D7VZjjsntQozuBp6a13V",
+        "X-Mashape-Key" : "YOUR-WORDS-API-KEY-ON-MASHAPE",
         "Accept" : "application/json"
       }
     };
