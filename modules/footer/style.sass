@@ -1,0 +1,129 @@
+.footer
+  position: fixed
+  bottom: 0px
+  left: 0px
+  width: 80%
+
+
+//---------------
+//CONTROL PANEL
+//---------------
+.control_panel
+  box-sizing: border-box
+  background-color: #093973
+  height: 70px
+
+.cp_profile_area
+  box-sizing: border-box
+  float: left
+  width: 50%
+  height: 55px
+  border-right: 4px solid white
+
+
+.button_facebook
+  background-color: darken(white, 20)
+  border-radius: 30px
+  width: 200px
+  margin: auto
+  margin-top: 13px
+  text-align: center
+  padding: 5px
+  cursor: pointer
+  &:hover
+    background-color: darken(white, 10)
+  &:active
+    background-color: darken(white, 30)
+
+.cp_pa_profile
+  height: 45px
+  margin: 5px
+  background-color: white
+
+.cp_pa_image
+  float: left
+  margin: 5px
+
+.cp_pa_image > img
+  height: 35px
+
+.cp_pa_welcome
+  float: left
+  padding-top: 13px
+
+.cp_pa_wc_hello
+  font-size: 22px
+  font-weight: bold
+  font-style: italic
+
+.cp_pa_wc_name
+  font-size: 25px
+  font-weight: bold
+  color: #73000A
+
+.cp_pa_logout_button
+  float: right
+  margin-top: 18px
+  margin-right: 3px
+  padding: 2px
+  background-color: lighten(gray, 20)
+  cursor: pointer
+  border: 1px solid
+  &:hover
+    background-color: lighten(gray, 10)
+  &:active
+    background-color: lighten(gray, 2)
+
+.cp_score
+  float: left
+  box-sizing: border-box
+  width: 50%
+  height: 55px
+  padding-top: 4px
+  text-align: right
+
+.cp_sc_title
+  display: inline-block
+  color: white
+  font-size: 25px
+  font-weight: bold
+  margin-right: 10px
+  margin-top: 5px
+
+.cp_sc_value
+  box-sizing: border-box
+  display: inline-block
+  padding: 8px
+  margin-right: 5px
+  background-color: white
+  font-size: 22px
+  height: 40px
+  font-weight: bold
+  border: 1px solid
+
+
+.cp_copyright
+  float: left
+  clear: both
+  text-align: right
+  box-sizing: border-box
+  width: 100%
+  height: 15px
+  background-color: black
+  color: white
+  font-size: 10px
+  font-weight: bold
+  padding-top: 2px
+  padding-right: 5px
+
+
+//---------------
+//ADVERTISEMENT
+//---------------
+.advertisement
+  height: 100px
+  background-color: white
+
+@media screen and (max-width: 700px)
+  .advertisement
+    width: 550px
